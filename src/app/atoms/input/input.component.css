@@ -1,0 +1,74 @@
+input {
+  margin: 7px;
+  padding: 7px;
+  border: solid 1px #cacaca;
+  font-size: 16px;
+  transition: 0.25s;
+  outline: none;
+  background: #f7f7f7;
+  box-sizing: border-box;
+}
+
+input:hover {
+  border-color: #2196f3;
+}
+
+input:focus {
+  border-color: #2196f3;
+  box-shadow: 0 0 0 0.3rem #e4e4e4;
+}
+
+.large {
+  font-size: 22px;
+  padding: 10px;
+}
+
+.medium {
+  font-size: 16px;
+  padding: 7px;
+}
+
+.small {
+  font-size: 12px;
+  padding: 5px;
+}
+
+.fullWidth {
+  width: calc(100% - 14px);
+}
+
+.halfWidth {
+  width: calc(50% - 14px);
+}
+
+.rectangle {
+  border-radius: 2px;
+}
+
+.halfRounded {
+  border-radius: 10px;
+}
+
+.rounded {
+  border-radius: 25px;
+}
+
+.primary {
+  border-color: #5146a3;
+}
+
+.info {
+  border-color: #03a9f4;
+}
+
+.success {
+  border-color: #4caf50;
+}
+
+.warning {
+  border-color: #ff9800;
+}
+
+.danger {
+  border-color: #f44336;
+}
